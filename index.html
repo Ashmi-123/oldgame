@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<style>
+    .fir{
+        background-color: blue;
+        width: 50px;
+        height: 40px;
+        border: 2px solid black;
+    }
+    .sec{
+        background-color:red;
+        width: 50px;
+        height: 40px;
+        border: 2px solid black;
+    }
+    .thi{
+        background-color:violet;
+        width: 50px;
+        height: 40px;
+        border: 2px solid black;
+    }
+    .fou{
+        background-color:green;
+        width: 50px;
+        height: 40px;
+        border: 2px solid black;
+    }
+    .fiv{
+        background-color:brown;
+        width: 50px;
+        height: 40px;
+        border: 2px solid black;
+    }
+    .six{
+        background-color:skyblue;
+        width: 50px;
+        height: 40px;
+        border: 2px solid black;
+    }
+    .sev{
+        background-color:black;
+        width: 50px;
+        height: 40px;
+        border: 2px solid black;
+    }
+    .beth{
+        background-color: greenyellow;
+        border: 2px solid black;
+        box-shadow: 2px 3px 2px 1px gray;
+    }
+    .beth1{
+        background-color: red;
+        border: 2px solid black;
+        box-shadow: 2px 3px 2px 1px gray;
+    }
+    .beth11{
+        background-color:greenyellow;
+        border: 2px solid black;
+        box-shadow: 2px 3px 2px 1px gray;
+    }
+    .beth12{
+        background-color: red;
+        border: 2px solid black;
+        box-shadow: 2px 3px 2px 1px gray;
+    }
+    .beth13{
+        background-color: greenyellow;
+        border: 2px solid black;
+        box-shadow: 2px 3px 2px 1px gray;
+    }
+    .beth14{
+        background-color:red;
+        border: 2px solid black;
+        box-shadow: 2px 3px 2px 1px gray;
+    }
+    .beth15{
+        background-color: greenyellow;
+        border: 2px solid black;
+        box-shadow: 2px 3px 2px 1px gray;
+    }
+    .beth16{
+        background-color:red;
+        border: 2px solid black;
+        box-shadow: 2px 3px 2px 1px gray;
+    }
+    .beth17{
+        background-color: greenyellow;
+        border: 2px solid black;
+        box-shadow: 2px 3px 2px 1px gray;
+    }
+    .beth18{
+        background-color:red;
+        border: 2px solid black;
+        box-shadow: 2px 3px 2px 1px gray;
+    }
+    .beth19{
+        background-color: rgb(238, 255, 113);
+        border: 2px solid black;
+        box-shadow: 2px 3px 2px 1px gray;
+    }
+    .beth20{
+        background-color:red;
+        border: 2px solid black;
+        box-shadow: 2px 3px 2px 1px gray;
+    }
+    .beth21{
+        background-color: greenyellow;
+        border: 2px solid black;
+        box-shadow: 2px 3px 2px 1px gray;
+    }
+    .beth22{
+        background-color:red;
+        border: 2px solid black;
+        box-shadow: 2px 3px 2px 1px gray;
+    }
+    h1{
+text-align: center;
+color:white;
+    }
+    
+     
+    
+    .ri1{
+        background-color:goldenrod;
+        width: 50px;
+        font-size: 15px;
+        border-radius: 5px;
+        height: 40px;
+    }
+    .ri2{
+        background-color:goldenrod;
+        width: 50px;
+        font-size: 15px;
+        border-radius: 5px;
+        height: 40px;
+    }
+    .ri3{
+        background-color:goldenrod;
+        width: 50px;
+        font-size: 15px;
+        border-radius: 5px;
+        height: 40px;
+    }
+    .ri4{
+        background-color:goldenrod;
+        width: 50px;
+        font-size: 15px;
+        border-radius: 5px;
+        height: 40px;
+    }
+    .ri5{
+        background-color:goldenrod;
+        width: 50px;
+        font-size: 15px;
+        border-radius: 5px;
+        height: 40px;
+    }
+    .ri6{
+        background-color:goldenrod;
+        width: 50px;
+        font-size: 15px;
+        border-radius: 5px;
+        height: 40px;
+    }
+    .ri7{
+        background-color:goldenrod;
+        width: 50px;
+        font-size: 15px;
+        border-radius: 5px;
+        height: 40px;
+    }
+    .li1{
+        padding: 10px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        
+    }
+    .li2{
+        padding: 10px;
+        border: 2px solid red;
+        border-radius: 5px;
+    
+    }
+    .li3{
+        padding: 10px;
+        border: 2px solid palevioletred;
+        border-radius: 5px;
+        
+    }
+    .li4{
+        padding: 10px;
+        border: 2px solid green;
+        border-radius: 5px;
+        
+    }
+    .li5{
+        padding: 10px;
+        border: 2px solid brown;
+        border-radius: 5px;
+    }
+    .li6{
+        padding: 10px;
+        border: 2px solid skyblue;
+        border-radius: 5px;
+    }
+    .li7{
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    .full1{
+        background-color: rgb(247, 238, 163);
+        width: 400px;
+        border:2px solid black;
+        padding-left: 80px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        box-shadow: 2px 3px 3px 3px rgb(113, 107, 107);
+        margin-left: 33%;
+        margin-top: 40px;
+        border-radius: 10px;
+    }
+    body{
+        background-color: black;
+    }
+    input[type="text"]{
+        background-color: transparent ;
+    }
+    @media screen and (max-width:700px){
+        .full1{
+            margin-left:35px;
+            
+        }
+    }
+</style>
+    </head>
+    <body>
+       
+       <h1>
+        LEARN COLOURS-GAME
+       </h1>
+        <div class="full1">
+          <div class="full">
+       
+        <div class="ash2">
+            <table>
+                <tr>
+                    <td class="fir">
+
+                    </td>
+                
+            <td>
+            <input type="text" id="ni1" class="li1">
+            </td>
+            <td>
+            <input type="submit" value="click" class="ri1" onclick="ni1()">
+        </td>
+        <td>
+            <p id="she" class="beth" ></p>
+        
+        </td>
+            </tr>
+
+            </table>
+        </div>
+        <div class="ash3">
+            <table>
+                <tr>
+                    <td class="sec" >
+
+                    </td>
+                
+            <td>
+            <input type="text" id="ni2" class="li2">
+            </td>
+            <td>
+            <input type="submit" value="click" class="ri2" onclick="ni2()" >
+        </td>
+        <td>
+            <p id="she1"></p>
+        </td>
+            </tr>
+            </table>
+        </div>
+        <div class="ash3">
+            <table>
+                <tr>
+                    <td class="thi" >
+
+                    </td>
+                
+            <td>
+            <input type="text" id="ni3" class="li3">
+            </td>
+            <td>
+            <input type="submit" value="click" class="ri3"  onclick="ni3()" >
+        </td>
+        <td>
+            <p id="she2"></p>
+        </td>
+            </tr>
+            </table>
+        </div>
+        <div class="ash4">
+            <table>
+                <tr>
+                    <td class="fou">
+
+                    </td>
+                
+            <td>
+            <input type="text"  id="ni4" class="li4">
+            </td>
+            <td>
+            <input type="submit" value="click" class="ri4"  onclick="ni4()" >
+        </td>
+        <td>
+            <p id="she3"></p>
+        </td>
+            </tr>
+            </table>
+        </div>
+        <div class="ash5">
+            <table>
+                <tr>
+                    <td class="fiv" >
+
+                    </td>
+                
+            <td>
+            <input type="text" id="ni5" class="li5">
+            </td>
+            <td>
+            <input type="submit" value="click" class="ri5"  onclick="ni5()">
+        </td>
+        <td>
+            <p id="she4"></p>
+        </td>
+            </tr>
+            </table>
+        </div>
+        <div class="ash6"></div>
+            <table>
+                <tr>
+                    <td class="six">
+
+                    </td>
+                
+            <td>
+            <input type="text" id="ni6" class="li6">
+            </td>
+            <td>
+            <input type="submit" value="click" class="ri6"  onclick="ni6()" >
+        </td>
+        <td>
+            <p id="she5"></p>
+        </td>
+            </tr>
+            </table>
+        </div>
+        <div class="ash7">
+            <table>
+                <tr>
+                    <td class="sev">
+
+                    </td>
+                
+            <td>
+            <input type="text" id="ni7" class="li7">
+            </td>
+            <td>
+            <input type="submit" value="click"  class="ri7" onclick="ni7()">
+        </td>
+        <td>
+            <p id="she6"></p>
+        </td>
+            </tr>
+            </table>
+        </div>
+    </div>
+        <script>
+            function ni1(){
+               x= document.getElementById('ni1').value;
+               if(x=="blue"){
+                document.getElementById('she').classList. add('beth'); 
+        document.getElementById('she').innerHTML="correct";   
+             
+               }
+               else{
+                document.getElementById('she').classList. add('beth1')
+                document.getElementById('she').innerHTML="wrong";     
+               }
+
+            }
+            function ni2(){
+               
+               x= document.getElementById('ni2').value;
+               if(x=="red"){
+                document.getElementById('she1').classList. add('beth11') ; 
+        document.getElementById('she1').innerHTML="correct";        
+               }
+               else{
+                document.getElementById('she1').classList. add('beth12');
+                document.getElementById('she1').innerHTML="wrong";     
+               }
+            }
+             function ni3(){
+                x=document.getElementById('ni3').value;
+                if(x=="pink"){
+
+                    document.getElementById('she2').classList. add('beth13') ; 
+                    document.getElementById('she2').innerHTML="correct";
+                }
+                else{
+                    document.getElementById('she2').classList. add('beth14');
+                    document.getElementById('she2').innerHTML="wrong";
+                }
+            
+                
+             }
+             function ni4(){
+                x=document.getElementById('ni4').value;
+                if(x=="green"){
+                    document.getElementById('she3').classList. add('beth15') ;
+                    document.getElementById('she3').innerHTML="correct";
+                }
+                else{
+                    document.getElementById('she3').classList. add('beth16');
+                    document.getElementById('she3').innerHTML="wrong";
+                }
+            
+                
+             }
+             function ni5(){
+                x=document.getElementById('ni5').value;
+                if(x=="brown"){
+                    document.getElementById('she4').classList. add('beth17') ;
+                    document.getElementById('she4').innerHTML="correct";
+                }
+                else{
+                    document.getElementById('she4').classList. add('beth18');
+                    document.getElementById('she4').innerHTML="wrong";
+                }
+            
+                
+             }
+             function ni6(){
+                x=document.getElementById('ni6').value;
+                if(x=="skyblue"){
+                    document.getElementById('she5').classList. add('beth19') ;
+                    document.getElementById('she5').innerHTML="correct";
+                }
+                else{
+                    document.getElementById('she5').classList. add('beth20');
+                    document.getElementById('she5').innerHTML="wrong";
+                }
+            
+                
+             }
+             function ni7(){
+                x=document.getElementById('ni7').value;
+                if(x=="black"){
+                    document.getElementById('she6').classList. add('beth21');
+                    document.getElementById('she6').innerHTML="correct";
+                }
+                else{
+                    document.getElementById('she6').classList. add('beth22');
+                    document.getElementById('she6').innerHTML="wrong";
+                }
+            
+                
+             }
+             
+        </script>
+        </div>
+    </body>
+</html>
